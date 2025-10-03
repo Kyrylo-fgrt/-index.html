@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лісова галерея 🌲</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background: #0b1d0b; color: #f0f7f0; text-align: center; }
+        header { background: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80') center/cover; color: white; padding: 60px 20px; }
+        header h1 { font-size: 2.8em; margin: 0; text-shadow: 2px 2px 8px black; }
+        .gallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; }
+        .card { background: rgba(0,0,0,0.5); padding: 10px; border-radius: 10px; max-width: 320px; box-shadow: 0 4px 12px rgba(0,0,0,0.5); }
+        .card img, .card video { width: 100%; border-radius: 10px; }
+        .card p { margin: 8px 0 0 0; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Моя лісова галерея 🌲</h1>
+        <p>Фото та відео з природи</p>
+    </header>
+
+    <div class="gallery">
+        <div class="card">
+            <h3>Фото 1</h3>
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80" alt="Ліс 1">
+            <p>Ранковий ліс, свіже повітря 🌄</p>
+        </div>
+        <div class="card">
+            <h3>Фото 2</h3>
+            <img src="https://images.unsplash.com/photo-1500534314209-a25db5d6a59e?auto=format&fit=crop&w=800&q=80" alt="Ліс 2">
+            <p>Доріжка в густому лісі 🌿</p>
+        </div>
+        <div class="card">
+            <h3>Відео 1</h3>
+            <video controls>
+                <source src="https://sample-videos.com/video123/mp4/480/asdasdas.mp4" type="video/mp4">
+                Ваш браузер не підтримує відео.
+            </video>
+            <p>Коротке відео з прогулянки 🎥</p>
+        </div>
+    </div>
+</body>
+</html>
